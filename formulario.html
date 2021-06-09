@@ -4,22 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Cadastro</title>
 </head>
 <body>
     
+    <div>
+        <h2>Cadastro de Clientes</h2>
+        <p>Preencha os campos abaixo</p>
+    </div>
+
     <div id="container">
         <form>
             <fieldset>
-                <legend>Informação dos Clientes</legend>
-                
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="name">
 
-                <label for="sobrenome">Sobrenome:</label>
-                <input type="text" name="sobrenome" id="sobrenome">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="name" required>
+                </div>
 
+                <div>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+
+                <div>
+                    <label for="site">Site:</label>
+                    <input type="text" name="site" id="site">
+                </div>
             </fieldset>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                    <div>
+
+                        <input type="radio" id="fisica" name="pessoa" value="juridica" checked>
+                        <label for="fisica">Pessoa Física</label>
+
+                        <input type="radio" id="juridica" name="pessoa" value="juridica">
+                        <label for="juridica">Pessoa Jurídica</label>
+
+                    </div>
+
+                    <div>
+                        <label for="cpf/cnpj">CPF/CNPJ:</label>
+                        <input type="text" name="cpf/cnpj" id="cpf/cnpj" required>
+                    </div>
+
+                    <fieldset>
+
+                        <div>
+                            <label for="cep">Cep:</label>
+                            <input type="text" name="cep" id="cep" placeholder="0000-000" required>
+                        </div>
+
+                        <div>
+                            <label for="bairro">Bairro:</label>
+                            <input type="text" name="bairro" id="bairro" required>
+                        </div>
+
+                        <div>
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" name="cidade" id="cidade" required>
+                        </div>
+
+                        <div>
+                            <label for="estado">Estado:</label>
+                            <input type="text" name="estado" id="estado" required>
+                        </div>
+
+                        <div>
+                            <label for="pais">País:</label>
+                            <input type="text" name="pais" id="pais" required>
+                        </div>
+
+                        <div>
+                            <label for="endereco_1">Endereço 1:</label>
+                            <input type="text" name="endereco_1" id="endereco_1">
+                        </div>
+
+                        <div>
+                            <label for="endereco_2">Endereço 2:</label>
+                            <input type="text" name="endereco_2" id="endereco_2">
+                        </div>
+
+                        <div>
+                            <label for="phone_number">Telefone:</label>
+                            <input type="text" name="phone_number" id="phone_number">
+                        </div>
+
+                    </fieldset>
+
         </form>
     </div>
     
