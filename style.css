@@ -55,9 +55,9 @@ input{
 }
 
 #botao{
-    position: absolute;
-    bottom: -346px;
-    right: 650px;
+    position: relative;
+    bottom: 60px;
+    right: 5px;
     text-align: center;
 }
 
