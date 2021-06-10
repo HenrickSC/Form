@@ -21,7 +21,7 @@ body{
 }
 
 #container{
-    height: 910px;
+    height: 1000px;
     width: 620px;
     margin: 25px auto;
     padding: 15px;
@@ -32,7 +32,7 @@ body{
 
 fieldset{
     width: 420px;
-    margin: 20px 92px;
+    margin: 15px 92px;
     padding: 10px;
     background: linear-gradient(to top, rgb(92, 92, 226), rgb(220, 220, 231));
     position: relative;
@@ -51,11 +51,12 @@ input{
     background-color: #f2f2f2;
     border: 1px solid black;
     border-radius: 3px;
+    padding: 5px;
 }
 
 #botao{
     position: absolute;
-    bottom: -250px;
+    bottom: -346px;
     right: 650px;
     text-align: center;
 }
@@ -76,7 +77,7 @@ textarea{
 .posicao{
     position: relative;
     left: 315px;
-    top: -89px;
+    top: -103px;
 }
 
 .posicao-radio{
@@ -88,7 +89,7 @@ textarea{
 .posicao-cpf{
     position: relative;
     left: 335px;
-    top: -88px;
+    top: -90px;
 }
 
 .inline{
