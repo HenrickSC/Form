@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(126, 126, 248); 
+}
+/**/
+
+#titulo{
+    text-align: center;
+    font-size: 2em;
+}
+
+#subtitulo{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+#container{
+    height: 910px;
+    width: 620px;
+    margin: 25px auto;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 5px 3px 3px rgba(20, 20, 20, 0.616);
+    border-radius: 5px;
+}
+
+fieldset{
+    width: 420px;
+    margin: 20px 92px;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(92, 92, 226), rgb(220, 220, 231));
+    position: relative;
+    bottom: 60px;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    display: block;
+}
+
+input{
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#botao{
+    position: absolute;
+    bottom: -250px;
+    right: 650px;
+    text-align: center;
+}
+
+.largura{
+    width: 260px;
+}
+
+textarea{
+    width: 280px;
+    height: 180px;
+}
+
+.campo{
+    margin: 5px 20px;
+}
+
+.posicao{
+    position: relative;
+    left: 315px;
+    top: -89px;
+}
+
+.posicao-radio{
+    position: relative;
+    right: -20px;
+    top: -48px;
+}
+
+.posicao-cpf{
+    position: relative;
+    left: 335px;
+    top: -88px;
+}
+
+.inline{
+    display: inline;
+    padding: 3px;
+}
+
+
+
