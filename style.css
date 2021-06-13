@@ -30,6 +30,15 @@ body{
     border-radius: 5px;
 }
 
+#botao{
+    position: relative;
+    bottom: 60px;
+    right: 5px;
+    text-align: center;
+}
+
+/**/
+
 fieldset{
     width: 420px;
     margin: 15px 92px;
@@ -54,27 +63,22 @@ input{
     padding: 5px;
 }
 
-#botao{
-    position: relative;
-    bottom: 60px;
-    right: 5px;
-    text-align: center;
-}
-
-.largura{
-    width: 260px;
-}
-
 textarea{
     width: 280px;
     height: 180px;
+}
+
+/**/
+
+.largura{
+    width: 260px;
 }
 
 .campo{
     margin: 5px 20px;
 }
 
-.posicao{
+.posicao-site-email{
     position: relative;
     left: 315px;
     top: -103px;
