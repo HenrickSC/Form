@@ -63,6 +63,34 @@ input{
     padding: 5px;
 }
 
+#botao input{
+    background-color: rgba(129, 129, 247, 0.808);
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px black;
+    padding: 6px;
+}
+#botao input:hover{
+    background-color: rgba(129, 129, 247, 0.808);
+    color: rgb(32, 32, 161);
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 1px 2px 1px black;
+    padding: 6px;
+   
+    cursor: pointer;
+}
+
+input:hover, textarea:hover{
+    border: 1px solid rgb(65, 65, 255);
+}
+
+input:focus, textarea:focus{
+    border: 2px solid rgb(65, 65, 255);
+    outline: 0;
+}
+
 textarea{
     width: 280px;
     height: 180px;
